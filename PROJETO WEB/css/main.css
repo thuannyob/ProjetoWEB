@@ -1,0 +1,173 @@
+.banner { width: 25%; margin: 0 auto; }
+li {display: inline; }
+header {text-align: center;}
+main {text-align: center}
+footer p {float: left; width: 80%}
+footer img {float: left;}
+
+.header-logo { margin: 0 auto; width: 530px; }
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+  }
+  
+  header {
+    padding: 0 !important;
+  }
+  
+  main {
+    height: 500px;
+  
+  }
+  
+  #menu {
+    padding: 0;
+   
+      }
+  
+  #menu ul {
+      padding: 10px;
+      margin: 0 ;
+      background-color:#EDEDED;
+      list-style:none;
+  
+  }
+  
+  #menu ul li { display: inline; }
+  
+  #menu ul li a {
+      padding: 2px 30px;
+      display: inline-block;
+      font-size: 120%;
+  
+      background-color:#EDEDED;
+      color: rgb(43, 40, 40);
+      text-decoration: none;
+      border-bottom:3px solid #EDEDED;
+  }
+  
+  #menu ul li a:hover {
+      background-color:rgb(255, 255, 255);
+      color: rgb(226, 77, 164);
+      border-bottom:3px solid rgb(228, 105, 172);
+  }
+
+#rodape {
+    margin-left: 10px;
+    margin-right: 50px;
+
+    }
+#topo {
+    margin-right: 10px;
+}
+
+.txtContato {
+    text-align: justifyce;
+    width: 299px;
+    margin-left: 0px;
+    margin-top: 5px;
+    
+  }
+  
+  #contato {
+    text-align: center;
+    width: 700px;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #sobre {
+    text-align: center;
+    width: 530px;
+    height: 450px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
+  }
+  
+    * {margin: 0; padding: 0; }
+    .slider {
+      display: block;
+      height: 450px;
+      width: 530px;
+      margin: auto;
+      margin-top: 0px;
+      position: relative;
+      }
+    .slider li {
+      list-style: none;
+      position: absolute;
+      width: 100%;
+    left: 0;
+      }
+    .slider img {
+      margin: auto;
+      height: 450px;
+      width: 100%;
+      vertical-align: top;
+      } 
+      .slider input {
+        display: none;
+    }
+    .slider label {
+      background-color: #000;
+      bottom: 10px;
+      cursor: pointer;
+      display: block;
+      height: 10px;
+      position: absolute;
+      width: 10px;
+      z-index: 10;
+  }
+ 
+  .slider li:nth-child(1) label {
+      left: 10px;
+  }
+ 
+  .slider li:nth-child(2) label {
+      left: 40px;
+  }
+ 
+  .slider li:nth-child(3) label {
+      left: 70px;
+  } 
+   .slider img {
+       opacity: 0;
+       visibility: hidden;
+   }
+  
+   .slider li input:checked ~ img {
+       opacity: 1;
+       visibility: visible;
+       z-index: 10;
+   } 
+
+   .sobre{
+     display: table;
+     width: 100%;
+     margin-top: 20px;
+   }
+
+   .float-left{
+     float: left;
+     width: 67%;
+    text-align: justify;
+   }
+
+   .float-right{
+    float: right;
+  }
+  .produto{
+    width: 100%;
+  }
+  .produto > div {
+    columns: 2;
+  }
+  .produto > div > div > img {
+    height: 200px;
+    width: 200px;
+  }
